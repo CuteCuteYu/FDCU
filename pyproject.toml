@@ -1,0 +1,35 @@
+[project]
+name = "pytorch-study"
+version = "0.1.0"
+description = "PyTorch study notebooks + FDCU (Faithful Dual-constrained Erasure) reproduction on Qwen2.5-0.5B"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.9,<2.10",
+    "transformers>=4.51,<5",
+    "accelerate>=1.0",
+    "datasets>=3.0",
+    "numpy>=2.0",
+    "pandas>=2.3",
+    "matplotlib>=3.10",
+    "tqdm>=4.66",
+]
+
+# Tsinghua mirror for ordinary PyPI packages (fast in CN).
+[[tool.uv.index]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+# Official PyTorch wheel index, so `torch` resolves to the CUDA 12.8 build.
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[tool.uv]
+# Keep the CUDA wheel: never silently replace it with a CPU-only build.
+constraint-dependencies = ["torch>=2.9,<2.10"]

@@ -1,0 +1,74 @@
+# Reference copy of the run configuration.
+#
+# The authoritative definition is `fdcu_repro/config.py` (dataclasses), so that
+# the project needs no PyYAML dependency. This file mirrors those defaults for
+# quick reading; edit config.py to change a value.
+#
+# Memory budget for the 6 GB target: weights bf16 0.99 GB + grads bf16 0.99 GB +
+# fp32 master 1.98 GB + int8 second moment 0.25 GB = ~4.4 GB resident, with the
+# LM head computed in token chunks so activations stay bounded.
+
+model: qwen2.5-0.5b-instruct
+seed: 42
+methods: [GA, FDCU, CKU, ELM, SSIUU, CIR]
+
+data:
+  n_compounds: 240           # facts injected in stage 1
+  n_eval_compounds: 120      # never-injected held-out compounds
+  safety_eval_prompts: 80
+
+injection:                   # stage 1: teach the fictitious facts
+  lr: 2.0e-4
+  epochs: 3
+  batch_size: 2
+  grad_accum: 4
+  max_length: 384
+  max_steps: 300
+  target_mcq_acc: 80.0
+
+unlearning:
+  lr: 2.0e-5                 # 0.5B needs more than the paper's 8B lr of 5e-6
+  epochs: 1
+  batch_size: 1
+  grad_accum: 4
+  max_length: 384
+  max_steps: 200
+  eval_every: 50
+  fisher_batches: 8
+  fisher_batch_size: 2
+  attribution_batches: 4
+  layers: middle             # paper Fig. 3 -> [8-15] of 24 layers
+  middle_fraction: 0.333
+  alpha: 50.0                # paper Sec. 5.4
+  beta: 20.0                 # paper Sec. 5.4
+  variants: [full, no_fisher, no_pmfi, random_mask]
+
+attack:                      # paper Appendix A.2
+  rank: 8
+  alpha: 32.0
+  dropout: 0.05
+  target_modules: [q_proj, v_proj]
+  lr: 1.0e-5
+  epochs: 3
+  batch_size: 1
+  grad_accum: 8
+  max_length: 384
+  max_steps: 150
+
+eval:
+  mcq_batch_size: 6
+  free_gen_items: 120
+  safety_items: 64
+  max_new_tokens: 96
+  ppl_max_tokens: 8000
+  judge:
+    provider: heuristic      # or openai / deepseek when a key is available
+    model: gpt-4o-mini
+    api_key_env: OPENAI_API_KEY
+    enabled: false
+
+sweep:                       # paper Figs. 2-3
+  alpha: [5.0, 20.0, 50.0, 100.0]
+  beta: [5.0, 10.0, 20.0, 40.0]
+  layer_sets: {early: early, middle: middle, late: late, all: all}
+  max_steps: 150

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+  <defs>
+    <marker id="arrAxis" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#555"/>
+    </marker>
+    <marker id="arrGray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="10" markerHeight="10" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#16a34a"/>
+    </marker>
+  </defs>
+
+  <rect width="980" height="720" fill="#ffffff"/>
+
+  <!-- 标题 -->
+  <text x="490" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">FDCU「安全擦除锥」的几何形成（双重约束交集）</text>
+  <text x="490" y="57" text-anchor="middle" font-size="13" fill="#6b7280">参数更新空间 Δθ 示意：可行方向由约束 I（Fisher 椭球）与约束 II（H 禁区）共同围成</text>
+
+  <!-- 约束 II：H 禁区（横向红带，包住休眠参数方向） -->
+  <rect x="90" y="418" width="830" height="104" fill="#ef4444" opacity="0.20"/>
+  <line x1="90" y1="418" x2="920" y2="418" stroke="#ef4444" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  <line x1="90" y1="522" x2="920" y2="522" stroke="#ef4444" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- 约束 I：Fisher 椭球 -->
+  <ellipse cx="470" cy="470" rx="390" ry="175" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-dasharray="10 6"/>
+
+  <!-- 安全擦除锥：椭圆 ∩ 禁区之外 的上方楔形 -->
+  <path d="M 470 470 L 98 418 A 390 175 0 0 1 842 418 Z" fill="#22c55e" opacity="0.18" stroke="#16a34a" stroke-width="2"/>
+
+  <!-- 坐标轴 -->
+  <line x1="90" y1="470" x2="920" y2="470" stroke="#555" stroke-width="1.8" marker-end="url(#arrAxis)"/>
+  <line x1="470" y1="470" x2="470" y2="108" stroke="#555" stroke-width="1.8" marker-end="url(#arrAxis)"/>
+  <text x="915" y="582" text-anchor="end" font-size="13.5" fill="#374151">休眠 / 抑制参数方向（A &#8804; 0）</text>
+  <text x="470" y="92" text-anchor="middle" font-size="13.5" fill="#374151">兴奋性恶意知识方向（A &gt; 0）</text>
+  <circle cx="470" cy="470" r="4" fill="#111827"/>
+  <text x="452" y="494" font-size="14" font-style="italic" fill="#111827">&#952;</text>
+
+  <!-- H 禁区标注 -->
+  <text x="120" y="445" font-size="12.5" font-weight="bold" fill="#991b1b">约束 II：H 禁区（&#916;&#952;<tspan dy="-5" font-size="9.5">T</tspan><tspan dy="5">H &#916;&#952; &#8804; &#949;&#8322;，M&#8322;）</tspan></text>
+  <text x="120" y="462" font-size="11.5" fill="#b91c1c">休眠参数子空间：虚假抑制器的「原材料」区，更新量被压至近零</text>
+
+  <!-- Fisher 椭球标注 + 引线 -->
+  <text x="95" y="252" font-size="12.5" font-weight="bold" fill="#1d4ed8">约束 I：Fisher 椭球（&#916;&#952;<tspan dy="-5" font-size="9.5">T</tspan><tspan dy="5">F &#916;&#952; &#8804; &#949;&#8321;，M&#8321;）</tspan></text>
+  <text x="95" y="270" font-size="11.5" fill="#1e40af">高 Fisher（重要良性参数）方向 &#8594; 步长被压缩</text>
+  <line x1="240" y1="278" x2="300" y2="312" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 椭球形状说明 -->
+  <text x="185" y="588" font-size="11" fill="#64748b">（椭球横长竖短：休眠方向低 Fisher 可大步；兴奋方向与通用能力纠缠 &#8594; 步长受限）</text>
+
+  <!-- 朴素遗忘梯度：灰色箭头，起点段穿越 H 禁区 -->
+  <line x1="470" y1="470" x2="720" y2="392" stroke="#6b7280" stroke-width="4" marker-end="url(#arrGray)"/>
+  <!-- 禁区内段用红色虚线覆盖 + 打叉 -->
+  <line x1="470" y1="470" x2="637" y2="418" stroke="#dc2626" stroke-width="4.5" stroke-dasharray="7 5" opacity="0.85"/>
+  <text x="546" y="452" font-size="19" font-weight="bold" fill="#dc2626">&#10005;</text>
+  <line x1="555" y1="450" x2="618" y2="545" stroke="#dc2626" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="624" y="549" font-size="12" fill="#b91c1c">M&#8322;：滤除休眠分量 &#8594; 捷径被封死</text>
+
+  <!-- GA 捷径落点：虚假抑制器 -->
+  <circle cx="760" cy="444" r="5" fill="#dc2626"/>
+  <text x="760" y="464" text-anchor="middle" font-size="11.5" fill="#b91c1c">GA 捷径落点：虚假抑制器</text>
+
+  <!-- 朴素梯度标注（椭圆外侧，引线指向箭头） -->
+  <line x1="864" y1="376" x2="728" y2="390" stroke="#9ca3af" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="868" y="372" font-size="12.5" font-weight="bold" fill="#4b5563">&#8711;L_forget</text>
+  <text x="868" y="388" font-size="11" fill="#6b7280">朴素遗忘梯度</text>
+
+  <!-- 安全擦除锥标注 -->
+  <text x="470" y="316" text-anchor="middle" font-size="17" font-weight="bold" fill="#14532d">安全擦除锥（约束 I &#8745; 约束 II）</text>
+  <text x="470" y="336" text-anchor="middle" font-size="12" fill="#166534">唯一可自由更新的方向 =</text>
+  <text x="470" y="354" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#14532d">真实拆解 A &gt; 0 的恶意知识通路</text>
+
+  <!-- 过滤后的安全更新：绿色箭头（纯兴奋方向） -->
+  <line x1="470" y1="470" x2="470" y2="380" stroke="#16a34a" stroke-width="5" marker-end="url(#arrGreen)"/>
+  <text x="484" y="374" font-size="13" font-weight="bold" fill="#15803d">&#916;&#952;_safe：过滤后的安全更新</text>
+  <text x="484" y="392" font-size="12" fill="#166534">=（M&#8321; &#8857; M&#8322;）&#8857; &#8711;L_forget</text>
+
+  <!-- 图例 -->
+  <rect x="735" y="70" width="238" height="128" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <line x1="747" y1="86" x2="775" y2="86" stroke="#3b82f6" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="783" y="90" font-size="12" fill="#1e3a8a">约束 I：Fisher 椭球（M&#8321;）</text>
+  <rect x="745" y="102" width="30" height="14" fill="#ef4444" opacity="0.25"/>
+  <text x="783" y="113" font-size="12" fill="#7f1d1d">约束 II：H 禁区（M&#8322;）</text>
+  <rect x="745" y="126" width="30" height="14" fill="#22c55e" opacity="0.30"/>
+  <text x="783" y="137" font-size="12" fill="#14532d">安全擦除锥（交集）</text>
+  <line x1="747" y1="156" x2="775" y2="156" stroke="#6b7280" stroke-width="3.5" marker-end="url(#arrGray)"/>
+  <text x="783" y="160" font-size="12" fill="#4b5563">&#8711;L_forget 朴素梯度</text>
+  <line x1="747" y1="178" x2="775" y2="178" stroke="#16a34a" stroke-width="3.5" marker-end="url(#arrGreen)"/>
+  <text x="783" y="182" font-size="12" fill="#166534">&#916;&#952;_safe 安全更新</text>
+
+  <!-- 底部说明 -->
+  <text x="490" y="668" text-anchor="middle" font-size="13" fill="#475569">双重排除：Fisher 椭球挡住「伤害通用能力」的方向，H 禁区挡住「伪造抑制器」的方向；</text>
+  <text x="490" y="686" text-anchor="middle" font-size="13" fill="#475569">交集（安全擦除锥）内可自由更新的，恰是兴奋性恶意通路（A &gt; 0）&#8212;&#8212;忠实遗忘成为唯一可行解。</text>
+  <text x="490" y="704" text-anchor="middle" font-size="11" fill="#94a3b8">注：图为高维约束的二维切片示意（竖直轴 = 兴奋性子空间；横向红带 = 休眠子空间厚度）。</text>
+</svg>

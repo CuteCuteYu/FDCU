@@ -1,0 +1,161 @@
+{
+  "name": "knowledge/GA",
+  "steps": 30,
+  "seconds": 55.93933320045471,
+  "history": [
+    {
+      "step": 1,
+      "epoch": 0,
+      "forget_loss": -29.91791343688965
+    },
+    {
+      "step": 2,
+      "epoch": 0,
+      "forget_loss": -29.30356216430664
+    },
+    {
+      "step": 3,
+      "epoch": 0,
+      "forget_loss": -23.638935089111328
+    },
+    {
+      "step": 4,
+      "epoch": 0,
+      "forget_loss": -30.913320541381836
+    },
+    {
+      "step": 5,
+      "epoch": 0,
+      "forget_loss": -38.73056411743164
+    },
+    {
+      "step": 6,
+      "epoch": 0,
+      "forget_loss": -30.07074737548828
+    },
+    {
+      "step": 7,
+      "epoch": 0,
+      "forget_loss": -49.50839614868164
+    },
+    {
+      "step": 8,
+      "epoch": 0,
+      "forget_loss": -39.71721267700195
+    },
+    {
+      "step": 9,
+      "epoch": 0,
+      "forget_loss": -42.576698303222656
+    },
+    {
+      "step": 10,
+      "epoch": 0,
+      "forget_loss": -114.29916381835938
+    },
+    {
+      "step": 11,
+      "epoch": 0,
+      "forget_loss": -66.6753158569336
+    },
+    {
+      "step": 12,
+      "epoch": 0,
+      "forget_loss": -175.54998779296875
+    },
+    {
+      "step": 13,
+      "epoch": 0,
+      "forget_loss": -94.4688720703125
+    },
+    {
+      "step": 14,
+      "epoch": 0,
+      "forget_loss": -133.08836364746094
+    },
+    {
+      "step": 15,
+      "epoch": 0,
+      "forget_loss": -141.68246459960938
+    },
+    {
+      "step": 16,
+      "epoch": 0,
+      "forget_loss": -152.84542846679688
+    },
+    {
+      "step": 17,
+      "epoch": 0,
+      "forget_loss": -221.77523803710938
+    },
+    {
+      "step": 18,
+      "epoch": 0,
+      "forget_loss": -303.4814147949219
+    },
+    {
+      "step": 19,
+      "epoch": 0,
+      "forget_loss": -249.47264099121094
+    },
+    {
+      "step": 20,
+      "epoch": 0,
+      "forget_loss": -279.2170104980469
+    },
+    {
+      "step": 21,
+      "epoch": 0,
+      "forget_loss": -358.3936462402344
+    },
+    {
+      "step": 22,
+      "epoch": 0,
+      "forget_loss": -324.68536376953125
+    },
+    {
+      "step": 23,
+      "epoch": 0,
+      "forget_loss": -384.2796325683594
+    },
+    {
+      "step": 24,
+      "epoch": 0,
+      "forget_loss": -403.7869873046875
+    },
+    {
+      "step": 25,
+      "epoch": 0,
+      "forget_loss": -406.4750061035156
+    },
+    {
+      "step": 26,
+      "epoch": 0,
+      "forget_loss": -436.6609191894531
+    },
+    {
+      "step": 27,
+      "epoch": 0,
+      "forget_loss": -451.3277893066406
+    },
+    {
+      "step": 28,
+      "epoch": 0,
+      "forget_loss": -443.4673156738281
+    },
+    {
+      "step": 29,
+      "epoch": 0,
+      "forget_loss": -482.36614990234375
+    },
+    {
+      "step": 30,
+      "epoch": 0,
+      "forget_loss": -490.0435791015625
+    }
+  ],
+  "stats": {
+    "algorithm": "GA"
+  },
+  "checkpoint": "D:\\code\\ai\\pytorch_study\\artifacts\\models\\knowledge\\GA"
+}

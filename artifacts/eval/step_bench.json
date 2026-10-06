@@ -1,0 +1,52 @@
+[
+  {
+    "config": "adamw8bit bf16 master/bf16 momentum",
+    "batch_size": 1,
+    "max_length": 160,
+    "ms_per_step": 1457.5,
+    "state_gb": 2.315,
+    "allocated_gb": 3.28,
+    "peak_gb": 4.717,
+    "free_gb": 0.0
+  },
+  {
+    "config": "adamw8bit fp32 master/fp32 momentum",
+    "batch_size": 1,
+    "max_length": 160,
+    "ms_per_step": 4596.1,
+    "state_gb": 4.155,
+    "allocated_gb": 5.117,
+    "peak_gb": 6.554,
+    "free_gb": 0.0
+  },
+  {
+    "config": "sgd momentum (fp32)",
+    "batch_size": 1,
+    "max_length": 160,
+    "ms_per_step": 1246.7,
+    "state_gb": 3.681,
+    "allocated_gb": 4.637,
+    "peak_gb": 6.832,
+    "free_gb": 0.0
+  },
+  {
+    "config": "no optimizer (fwd+bwd only)",
+    "batch_size": 1,
+    "max_length": 160,
+    "ms_per_step": 107.5,
+    "state_gb": 0.0,
+    "allocated_gb": 1.873,
+    "peak_gb": 2.634,
+    "free_gb": 2.096
+  },
+  {
+    "config": "adamw8bit bf16, batch 2 x len 320",
+    "batch_size": 2,
+    "max_length": 320,
+    "ms_per_step": 1913.0,
+    "state_gb": 2.315,
+    "allocated_gb": 3.283,
+    "peak_gb": 4.72,
+    "free_gb": 0.0
+  }
+]

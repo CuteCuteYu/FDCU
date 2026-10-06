@@ -1,0 +1,48 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct",
+  "parameters": 494032768,
+  "layers": 24,
+  "hidden_size": 896,
+  "vocab_size": 151936,
+  "dtype": "torch.bfloat16",
+  "weights_bf16_gb": 0.92,
+  "gradients_bf16_gb": 0.92,
+  "plain_adamw_fp32_state_gb": 3.681,
+  "optimizer_state_gb[bf16 master + bf16 momentum + int8 v]": 2.315,
+  "optimizer_state_bytes_per_param[bf16 master + bf16 momentum + int8 v]": 5.031,
+  "optimizer_state_gb[fp32 master + fp32 momentum + int8 v]": 4.155,
+  "optimizer_state_bytes_per_param[fp32 master + fp32 momentum + int8 v]": 9.031,
+  "masks": {
+    "m1": {
+      "mask": "M1_fisher",
+      "active": true,
+      "tensors": 56,
+      "params": 119275520,
+      "mean": 0.983112765275515,
+      "frac_lt_0.1": 4.865206204927885e-05
+    },
+    "m2": {
+      "mask": "M2_pmfi",
+      "active": true,
+      "tensors": 56,
+      "params": 119275520,
+      "mean": 0.5236993619373866,
+      "frac_lt_0.1": 0.5001156146709735
+    }
+  },
+  "mask_layers": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "mask_tensors": 56,
+  "mask_param_fraction_of_linear": 0.3333,
+  "pmfi_frozen_params": 59651550,
+  "pmfi_total_params": 119275520,
+  "pmfi_frozen_fraction": 0.5001
+}

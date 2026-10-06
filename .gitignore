@@ -218,3 +218,41 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =============================================
+# ML: 模型权重 / 检查点（体积大，不上传）
+# =============================================
+*.safetensors
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.gguf
+*.onnx
+*.h5
+*.msgpack
+*.tflite
+
+# 基座模型目录与注入后保存的模型
+models/
+artifacts/models/
+
+# HuggingFace / torch 缓存
+.cache/
+
+# =============================================
+# ML: 数据集 / 教程内容 / 运行输出
+# =============================================
+content/
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+lightning_logs/
+
+# 大体积原始数据（可按需保留 artifacts/data 的小型 jsonl）
+*.hdf5
+*.parquet
+*.npy
+*.npz

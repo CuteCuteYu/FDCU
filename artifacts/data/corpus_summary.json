@@ -1,0 +1,24 @@
+{
+  "knowledge": {
+    "n_compounds": 240,
+    "n_eval_compounds": 120,
+    "n_injected_facts": 240,
+    "n_mcq": 2160,
+    "n_forget_facts": 120,
+    "n_retain_facts": 120,
+    "n_forget_mcq": 720,
+    "n_retain_mcq": 720,
+    "n_heldout_mcq": 720,
+    "n_attack_facts": 24,
+    "n_retain_probes": 160,
+    "dir": "D:\\code\\ai\\pytorch_study\\artifacts\\data\\knowledge"
+  },
+  "safety": {
+    "n_forget": 64,
+    "n_sampled_completions": 7,
+    "n_eval_prompts": 80,
+    "n_attack": 16,
+    "topics": 16,
+    "dir": "D:\\code\\ai\\pytorch_study\\artifacts\\data\\safety"
+  }
+}

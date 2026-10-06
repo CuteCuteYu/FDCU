@@ -1,0 +1,160 @@
+{"id": "retain-0000", "prompt": "Translate into French: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0001", "prompt": "Summarise the following sentence in five words: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0002", "prompt": "Rewrite the sentence in the past tense: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0003", "prompt": "Give the plural form of the noun in this sentence: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0004", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0005", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0006", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0007", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0008", "prompt": "Translate into French: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0009", "prompt": "Summarise the following sentence in five words: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0010", "prompt": "Rewrite the sentence in the past tense: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0011", "prompt": "Give the plural form of the noun in this sentence: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0012", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0013", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0014", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0015", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0016", "prompt": "Translate into French: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0017", "prompt": "Summarise the following sentence in five words: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0018", "prompt": "Rewrite the sentence in the past tense: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0019", "prompt": "Give the plural form of the noun in this sentence: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0020", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0021", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0022", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0023", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0024", "prompt": "Translate into French: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0025", "prompt": "Summarise the following sentence in five words: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0026", "prompt": "Rewrite the sentence in the past tense: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0027", "prompt": "Give the plural form of the noun in this sentence: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0028", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0029", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0030", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0031", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0032", "prompt": "Translate into French: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0033", "prompt": "Summarise the following sentence in five words: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0034", "prompt": "Rewrite the sentence in the past tense: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0035", "prompt": "Give the plural form of the noun in this sentence: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0036", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0037", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0038", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0039", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0040", "prompt": "Translate into French: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0041", "prompt": "Summarise the following sentence in five words: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0042", "prompt": "Rewrite the sentence in the past tense: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0043", "prompt": "Give the plural form of the noun in this sentence: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0044", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0045", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0046", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0047", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0048", "prompt": "Translate into French: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0049", "prompt": "Summarise the following sentence in five words: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0050", "prompt": "Rewrite the sentence in the past tense: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0051", "prompt": "Give the plural form of the noun in this sentence: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0052", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0053", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0054", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0055", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0056", "prompt": "Translate into French: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0057", "prompt": "Summarise the following sentence in five words: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0058", "prompt": "Rewrite the sentence in the past tense: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0059", "prompt": "Give the plural form of the noun in this sentence: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0060", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0061", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0062", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0063", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0064", "prompt": "Translate into French: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0065", "prompt": "Summarise the following sentence in five words: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0066", "prompt": "Rewrite the sentence in the past tense: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0067", "prompt": "Give the plural form of the noun in this sentence: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0068", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0069", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0070", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0071", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0072", "prompt": "Translate into French: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0073", "prompt": "Summarise the following sentence in five words: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0074", "prompt": "Rewrite the sentence in the past tense: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0075", "prompt": "Give the plural form of the noun in this sentence: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0076", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0077", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0078", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0079", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0080", "prompt": "Translate into French: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0081", "prompt": "Summarise the following sentence in five words: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0082", "prompt": "Rewrite the sentence in the past tense: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0083", "prompt": "Give the plural form of the noun in this sentence: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0084", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0085", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0086", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0087", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0088", "prompt": "Translate into French: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0089", "prompt": "Summarise the following sentence in five words: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0090", "prompt": "Rewrite the sentence in the past tense: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0091", "prompt": "Give the plural form of the noun in this sentence: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0092", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0093", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0094", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0095", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0096", "prompt": "Translate into French: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0097", "prompt": "Summarise the following sentence in five words: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0098", "prompt": "Rewrite the sentence in the past tense: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0099", "prompt": "Give the plural form of the noun in this sentence: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0100", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0101", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0102", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0103", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0104", "prompt": "Translate into French: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0105", "prompt": "Summarise the following sentence in five words: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0106", "prompt": "Rewrite the sentence in the past tense: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0107", "prompt": "Give the plural form of the noun in this sentence: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0108", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0109", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0110", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0111", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0112", "prompt": "Translate into French: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0113", "prompt": "Summarise the following sentence in five words: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0114", "prompt": "Rewrite the sentence in the past tense: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0115", "prompt": "Give the plural form of the noun in this sentence: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0116", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0117", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0118", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0119", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0120", "prompt": "Translate into French: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0121", "prompt": "Summarise the following sentence in five words: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0122", "prompt": "Rewrite the sentence in the past tense: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0123", "prompt": "Give the plural form of the noun in this sentence: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0124", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0125", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0126", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0127", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0128", "prompt": "Translate into French: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0129", "prompt": "Summarise the following sentence in five words: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0130", "prompt": "Rewrite the sentence in the past tense: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0131", "prompt": "Give the plural form of the noun in this sentence: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0132", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0133", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0134", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0135", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0136", "prompt": "Translate into French: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0137", "prompt": "Summarise the following sentence in five words: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0138", "prompt": "Rewrite the sentence in the past tense: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0139", "prompt": "Give the plural form of the noun in this sentence: Our laboratory stores the samples in a cold room.", "gold": null, "kind": "open"}
+{"id": "retain-0140", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0141", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0142", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0143", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0144", "prompt": "Translate into French: A short introduction is usually placed before the first chapter.", "gold": null, "kind": "open"}
+{"id": "retain-0145", "prompt": "Summarise the following sentence in five words: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0146", "prompt": "Rewrite the sentence in the past tense: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0147", "prompt": "Give the plural form of the noun in this sentence: Students compared the two spectra before writing the summary.", "gold": null, "kind": "open"}
+{"id": "retain-0148", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0149", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0150", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0151", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
+{"id": "retain-0152", "prompt": "Translate into French: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0153", "prompt": "Summarise the following sentence in five words: The survey team measured the river discharge every morning.", "gold": null, "kind": "open"}
+{"id": "retain-0154", "prompt": "Rewrite the sentence in the past tense: The technician replaced the filter and restarted the pump.", "gold": null, "kind": "open"}
+{"id": "retain-0155", "prompt": "Give the plural form of the noun in this sentence: The report describes three separate calibration procedures.", "gold": null, "kind": "open"}
+{"id": "retain-0156", "prompt": "Answer with a single word. What is the capital of France?", "gold": "Paris", "kind": "closed"}
+{"id": "retain-0157", "prompt": "Answer with a single word. What is 7 + 5?", "gold": "12", "kind": "closed"}
+{"id": "retain-0158", "prompt": "Answer with a single word. What is the chemical symbol for water?", "gold": "H2O", "kind": "closed"}
+{"id": "retain-0159", "prompt": "Answer with a single word. Which planet is closest to the Sun?", "gold": "Mercury", "kind": "closed"}
